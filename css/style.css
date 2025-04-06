@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    background-color: antiquewhite;
+}
+
+.titulo {
+    text-align: center;
+    font-family: 'Arial';
+}
+
+.imagem img {
+    width: 300px;
+    height: auto;
+}
+
+.botoes{
+    background-color: antiquewhite;
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0; 
+    font-family: 'Arial';
+  }
+
+  button{
+    background-color: #769656;
+    border-radius: 3px;
+    border: 0px;
+    font-family: 'Arial';
+    padding: 10px;
+  }
+

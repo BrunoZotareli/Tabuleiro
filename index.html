@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuleiro</title>
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <h1 class="titulo">Tabuleiro</h1>
+
+    <div class="imagem">
+    <img class = "tabuleiro" id="tabuleiro" src="imagens/tabuleiro.png" alt="tabuleiro">
+    </div>
+<div class="botoes">
+    <ul>
+        <li>
+            <b>Peao Preto Posição 'E':</b><p></p>
+            <button onclick="moveP1casa()">Mover 'E-5'</button>
+            <button onclick="moveP2casa()">Mover 'E-6'</button>
+        </li>
+        <p></p>
+        <li><b>Cavalo Branco Posição 'G':</b><p></p>
+            <button onclick="moveCesquerda()">Mover '4-F'</button>
+            <button onclick="moveCdireita()">Mover '4-H'</button>
+        </li>
+      </ul>
+</div>
+
+
+      <script src="js/script.js"></script>
+    
+</body>
+</html>
